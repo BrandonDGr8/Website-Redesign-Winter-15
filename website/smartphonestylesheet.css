@@ -194,12 +194,11 @@ body {
 	width: 100%;
 	background-color: #5599ff;
 	display: table;
-	/*line-height: 0;*/
 }
-#aboutContainer {
+.bodyContainer {
 	display: table-cell;
 }
-#about .header {
+.header {
 	margin-top: 10.38vw;
 	margin-bottom: 10.38vw;
 	margin-right: 10.38vw;
@@ -207,13 +206,22 @@ body {
 	text-align: right;
 	color: white;
 }
-#about .body {
+.body {
 	position: relative;
 	margin-top: 10.38vw;
 	margin-bottom: 20.76vw;
 	margin-left: 10.38vw !important;
 	margin-right: 10.38vw !important;
 	display: block;
+}
+.image {
+	position: relative;
+	height: 36.16vw;
+	display: block;
+	margin-top: 10.38vw;
+	margin-bottom: 10.38vw;
+	margin-left: auto;
+	margin-right: auto; 
 }
 #about .imgContainer, #about .text {
  	display: table-cell;
@@ -224,20 +232,78 @@ body {
 	display: block;
 }
 #about img {
-	position: relative;
-	height: 36.16vw;
 	border-radius: 100%;
-	display: block;
-	margin-top: 10.38vw;
-	margin-bottom: 10.38vw;
-	margin-left: auto;
-	margin-right: auto; 
 }
 #about .text {
 	position: relative;
 	width: 100%;
 	font-size: 4.52vw !important;
-	/*line-height: 2.26vw;*/
 	text-align: left;
 	color: white;
+}
+.miniHeader {
+	margin-bottom: 4.0vw;
+	color: white;
+	font-size: 6vw;
+	text-align: left !important;
+}
+#experience {
+	position: relative;
+	width: 100%;
+	background-color: #5f8dd3;
+	display: table;
+	z-index: 5;
+}
+#experience .imgContainer, #experience .text {
+ 	display: table-cell;
+}
+#experience .imgContainerMobile {
+	position: relative;
+	width: 100%;
+	display: block;
+}
+#experience .imgContainer {
+	display: none;
+}
+#experience .text {
+	position: relative;
+	width: 100%;
+	font-size: 4.52vw !important;
+	text-align: left;
+	color: white;
+}
+.divider {
+	height: 1px;
+	margin-bottom: 10.38vw;
+	margin-left: 10.38vw;
+	margin-right: 10.38vw;
+	background-color: white;
+}
+.languages, .technologies {
+	position: relative;
+	margin-bottom: 4.0vw;
+	margin-left: 10.38vw;
+	margin-right: 10.38vw;
+}
+.languages {
+	text-align: left;
+}
+.technologies {
+	text-align: right;
+}
+.bType3 {
+	clear: both;
+	position: relative;
+	margin-left: 10.38vw;
+	margin-right: 10.30vw;
+	margin-bottom: 20.76vw;
+}
+.bType3 .text {
+	width: 50% !important;
+}
+.textRight {
+	padding-left: 10.38vw;
+}
+.bType3 .imgContainerMobile {
+	/*width: 100% !important;*/
 }

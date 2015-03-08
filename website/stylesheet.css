@@ -2,6 +2,10 @@
 	font-family: "Cicle Semi";
 	src: url(font/CicleSemi.ttf);
 }
+@font-face{
+	font-family: "Monospace";
+	src: url(font/cour.ttf);
+}
 html, body {
 	font-family: Cicle Semi, sans-serif;
 	-webkit-box-sizing: border-box;
@@ -101,31 +105,41 @@ html, body {
 	font-size: 6.8vw;
 	line-height: 6.8vw;
 }
+.body {
+	display: table;
+	margin-bottom: 10.38vw;
+}
+.image {
+	position: absolute;
+		left: 0;
+		right: 0;
+		bottom: 0;
+	height: 100%;
+	width: auto;
+	display: block;
+	margin: auto;
+}
 #about {
 	position: relative;
 	width: 100%;
 	background-color: #5599ff;
 	display: table;
-	/*line-height: 0;*/
 	z-index: 5;
 }
-#aboutContainer {
+.bodyContainer {
 	display: table-cell;
 }
-#about .header {
+.header {
 	margin-top: 5.19vw;
 	margin-bottom: 5.19vw;
 	margin-right: 5.19vw;
 	font-size: 5.19vw;
-	/*line-height: 5.19vw;*/
 	text-align: right;
 	color: white;
 }
-#about .body {
-	margin-bottom: 10.38vw;
+.bType1 {
 	margin-left: 110px;
 	margin-right: 5.19vw;
-	display: table;
 }
 #about .imgContainer, #about .text {
  	display: table-cell;
@@ -136,21 +150,84 @@ html, body {
 	width: 40%;
 }
 #about img {
-	position: absolute;
-		left: 0;
-		right: 0;
-		bottom: 0;
-	height: 100%;
-	width: auto;
 	border-radius: 100%;
-	display: block;
-	margin: auto;
 }
-#about .text {
+.text {
 	width: 60%;
 	font-size: 2.26vw;
-	/*line-height: 2.26vw;*/
 	text-align: left;
 	color: white;
 	display: table-cell;
+}
+.miniHeader {
+	margin-bottom: 2.0vw;
+	color: white;
+	font-size: 3vw;
+}
+.mHType1 {
+	text-align: right;
+}
+.mHType2 {
+	text-align: left;
+}
+#experience {
+	position: relative;
+	width: 100%;
+	background-color: #5f8dd3;
+	display: table;
+	z-index: 5;
+}
+.bType2 {
+	margin-left: calc(110px + 5.19vw);
+	margin-right: 0;
+}
+#experience .imgContainer, #experience .text {
+ 	display: table-cell;
+	vertical-align: top;
+}
+#experience .imgContainer {
+	position: relative;
+	width: 40%;
+}
+.divider {
+	height: 1px;
+	margin-bottom: 5.19vw;
+	margin-left: calc(5.19vw + 110px);
+	margin-right: 5.19vw;
+	background-color: white;
+}
+.languages, .technologies {
+	position: relative;
+	display: inline-block;
+	margin-bottom: 2.0vw;
+}
+.languages {
+	float: left;
+	margin-left: calc(110px + 5.19vw);
+	text-align: left;
+}
+.technologies {
+	float: right;
+	margin-right: 5.19vw;
+	text-align: right;
+}
+.bType3 {
+	clear: both;
+	position: relative;
+	width: calc(100% - 10.38vw - 110px);
+	margin-left: calc(5.19vw + 110px);
+	margin-right: 5.19vw;
+	margin-bottom: 10.38vw;
+}
+.bType3 .text {
+	width: 25% !important;
+}
+.textRight {
+	padding-left: 5.19vw;
+}
+.bType3 .imgContainer {
+	width: 50% !important;
+}
+.imgContainerMobile {
+	display: none;
 }

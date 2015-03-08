@@ -1,9 +1,4 @@
-@font-face{
-	font-family: "Cicle Semi";
-	src: url(font/CicleSemi.ttf);
-}
 body {
-	font-family: Cicle Semi, sans-serif;
 	-webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -155,87 +150,6 @@ body {
 	margin-left: 0em;
 	margin-right: 0em;
 }
-#home {
-	position: relative;
-	width: 100%;
-	display: table;
-	line-height: 0;
-}
-#homeBackground {
-	display: table-cell;
-}
-#homeBGimg {
-	width: 100%;
-}
-#homeTextContainer {
-	position: absolute;
-		top: 0;
-		left: 110px;
-		margin-top: 10vw;
-		margin-left: 11vw;
-	text-align: center;
-	color: white;
-	z-index: 1;
-}
-#homeText {
-	font-size: 3.0vw;
-	line-height: 3.0vw;
-	margin: 0;
-}
-#homeText span {
-	font-size: 6.8vw;
-	line-height: 6.8vw;
-}
-#about {
-	position: relative;
-	width: 100%;
-	background-color: #5599ff;
-	display: table;
-	/*line-height: 0;*/
-	z-index: 5;
-}
-#aboutContainer {
-	display: table-cell;
-}
-#about .header {
-	margin-top: 5.19vw;
-	margin-bottom: 5.19vw;
-	margin-right: 5.19vw;
-	font-size: 5.19vw;
-	/*line-height: 5.19vw;*/
-	text-align: right;
-	color: white;
-}
-#about .body {
-	margin-bottom: 10.38vw;
-	margin-left: 110px;
-	margin-right: 5.19vw;
-	display: table;
-}
-#about .imgContainer, #about .text {
- 	display: table-cell;
-	vertical-align: top;
-}
-#about .imgContainer {
-	position: relative;
-	width: 40%;
-}
-#about img {
-	position: absolute;
-		left: 0;
-		right: 0;
-		bottom: 0;
-	height: 100%;
-	width: auto;
-	border-radius: 100%;
-	display: block;
-	margin: auto;
-}
-#about .text {
-	width: 60%;
-	font-size: 2.26vw;
-	/*line-height: 2.26vw;*/
-	text-align: left;
-	color: white;
-	display: table-cell;
+.imgContainerMobile {
+	display: none;
 }
