@@ -231,3 +231,49 @@ html, body {
 .imgContainerMobile {
 	display: none;
 }
+#projects {
+	position: relative;
+	width: 100%;
+	background-color: #5599ff;
+	display: table;
+	z-index: 5;
+}
+#projects .imgContainer, #projects .text {
+ 	display: table-cell;
+	vertical-align: top;
+}
+#projects .imgContainer {
+	position: relative;
+	width: 40%;
+}
+#contact {
+	position: relative;
+	width: 100%;
+	background-color: #5f8dd3;
+	display: table;
+	z-index: 5;
+}
+#contact .body {
+	margin-left: calc(110px + 5.19vw);
+}
+#contact .text {
+ 	display: table-cell;
+	vertical-align: top;
+	text-align: center;
+}
+#contact i {
+	display: inline-block;
+	font-size: 10.38vw;
+	color: white;
+	margin-right: 5.19vw;
+	margin-bottom: 5.19vw;
+	transition: font-size 0.3s;
+	-webkit-transition: font-size 0.3s;
+}
+#contact i:hover {
+	font-size: 12vw;
+}
+a {
+	text-decoration: none;
+	color: white;
+}

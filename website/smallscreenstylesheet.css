@@ -153,3 +153,6 @@ body {
 .imgContainerMobile {
 	display: none;
 }
+#home {
+	background-color: gray;
+}

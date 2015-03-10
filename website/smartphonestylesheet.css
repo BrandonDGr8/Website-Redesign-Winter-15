@@ -307,3 +307,74 @@ body {
 .bType3 .imgContainerMobile {
 	/*width: 100% !important;*/
 }
+#projects {
+	position: relative;
+	width: 100%;
+	background-color: #5599ff;
+	display: table;
+	z-index: 5;
+}
+#projects .imgContainer, #projects .text {
+ 	display: table-cell;
+}
+#projects .imgContainerMobile {
+	position: relative;
+	width: 100%;
+	display: block;
+}
+#projects .imgContainer {
+	display: none;
+}
+#projects .text {
+	position: relative;
+	width: 100%;
+	font-size: 4.52vw !important;
+	text-align: left;
+	color: white;
+}
+#contact {
+	position: relative;
+	width: 100%;
+	background-color: #5f8dd3;
+	display: table;
+	z-index: 5;
+}
+#contact .body {
+	margin-left: calc(110px + 5.19vw);
+}
+#contact i {
+	display: inline-block;
+	color: white;
+	margin-left: 5.19vw;
+	margin-right: 5.19vw;
+	margin-bottom: 5.19vw;
+}
+#contact .text {
+	position: relative;
+	width: 100%;
+	font-size: 4.52vw !important;
+	text-align: center;
+	color: white;
+ 	display: table-cell;
+}
+#contact .text {
+ 	display: table-cell;
+	vertical-align: top;
+	text-align: center;
+}
+#contact i {
+	display: inline-block;
+	font-size: 20.76vw;
+	color: white;
+	margin-right: 5.19vw;
+	margin-bottom: 5.19vw;
+	transition: font-size 0s;
+	-webkit-transition: font-size 0s;
+}
+#contact i:hover {
+	font-size: 20.76vw;
+}
+a {
+	text-decoration: none;
+	color: white;
+}
