@@ -176,6 +176,7 @@ html, body {
 	background-color: #5f8dd3;
 	display: table;
 	z-index: 5;
+	overflow: hidden;
 }
 .bType2 {
 	margin-left: calc(110px + 5.19vw);
@@ -237,6 +238,7 @@ html, body {
 	background-color: #5599ff;
 	display: table;
 	z-index: 5;
+	overflow: hidden;
 }
 #projects .imgContainer, #projects .text {
  	display: table-cell;
@@ -261,19 +263,40 @@ html, body {
 	vertical-align: top;
 	text-align: center;
 }
-#contact i {
+.iContainer {
 	display: inline-block;
-	font-size: 10.38vw;
 	color: white;
 	margin-right: 5.19vw;
-	margin-bottom: 5.19vw;
-	transition: font-size 0.3s;
-	-webkit-transition: font-size 0.3s;
+	margin-bottom: 2.60vw;
+}
+.iContainer p {
+	margin-top: 1vw;
+	margin-bottom: 0;
+	transition: color 0.3s;
+	-webkit-transition: color 0.3s;
+}
+.iContainer p:hover {
+	color: #aaaaff;
+}
+#contact i {
+	font-size: 10.38vw;
+	transition: color 0.3s;
+	-webkit-transition: color 0.3s;
 }
 #contact i:hover {
-	font-size: 12vw;
+	color: #aaaaff;
 }
-a {
+.bodyContainer a {
 	text-decoration: none;
 	color: white;
+}
+.contactText {
+	display: none;
+	padding-right: 5.19vw;
+}
+.anchor {
+	top: 0;
+	left: 0;
+	right: 0;
+	margin: 0;
 }
